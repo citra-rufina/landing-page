@@ -1,0 +1,45 @@
+.btn-black {
+	text-align: jstify;
+	flex-grow: 1;
+	color: black;
+	text-decoration: none;
+	padding: 5px 5px;
+	border-radius: 4px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.btn-black:hover {
+	color: red;
+}
+
+.btn-red {
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 4px;
+	text-transform: capitalize;
+}
+.btn-red:hover {
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	box-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+}
+.btn-ghost {
+	background-color: rgba(255,255,255,0);
+	color: black;
+	font-weight: bold;
+	margin-top: 50px;
+  	display: inline-block;
+  	width: 150px;
+  	padding: 8px;
+  	border: 1px solid black;
+  	border-radius: 5px;
+  	text-decoration: none;
+}
+.btn-ghost:hover {
+ 	background-color: red;
+ 	color: white;
+ 	border: 0px solid #fff;
+}

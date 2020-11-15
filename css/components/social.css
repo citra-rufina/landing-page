@@ -1,0 +1,14 @@
+.social {
+	list-style: none;
+	display: inline;
+	padding: 15px;
+	font-size: 40px;
+}
+.social i {
+	color: red;
+	font-size: 35px;
+}
+.social i:hover {
+	background-color: white;
+	color: #ffd0cf;
+}

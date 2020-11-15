@@ -1,0 +1,22 @@
+.navigation {
+	position: fixed;
+	width: 100%;
+	flex-grow: 1;
+	display: flex;
+	margin-top: 0px;
+	background-color: rgba(255,255,255,0.6);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+.list-inline img {
+	width: 50px;
+	margin-right: 50px;
+	border-radius: 50%;
+}
+.list-inline li {
+	display: inline;
+	flex-grow: 1;
+	padding: 30px;
+	margin-left: 30px;
+	list-style: none;
+	text-transform: capitalize;
+}

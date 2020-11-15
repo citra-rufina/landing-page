@@ -1,0 +1,66 @@
+@import url("components/container.css");
+@import url("components/navigation.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/category.css");
+@import url("components/about.css");
+@import url("components/card.css");
+@import url("components/social.css");
+
+
+h2 {
+	text-transform: capitalize;
+	text-align: center;
+}
+p {
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+	font-weight: lighter;
+}
+footer {
+	text-align: center;
+	color: grey;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+@media (max-width: 960px) {
+	.container {
+		width: 70%;
+	}
+	.about img {
+		display: none;
+	}
+	.navigation {
+		width: 70%;
+	}
+}
+@media (max-width: 720px) {
+	.container {
+		width: 50%;
+	}
+	.about img {
+		display: none;
+	}
+	.navigation {
+		width: 50%;
+	}
+}
+@media (max-width: 540) {
+	.container {
+		width: 30%;
+	}
+	.card img {
+		display: none;
+	}
+	.about img {
+		display: none;
+	}
+	.navigation {
+		width: 30%;
+	}
+}
